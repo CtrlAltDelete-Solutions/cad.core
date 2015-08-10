@@ -33,33 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DocumentFormat.OpenXml">
-      <HintPath>packages\DocumentFormat.OpenXml.2.5\lib\DocumentFormat.OpenXml.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="DocX">
-      <HintPath>packages\DocX.1.0.0.13\lib\net40\DocX.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="HtmlAgilityPack">
-      <HintPath>packages\HtmlAgilityPack.1.4.9\lib\Net45\HtmlAgilityPack.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="itextsharp">
-      <HintPath>packages\iTextSharp.5.5.6\lib\itextsharp.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="itextsharp.xmlworker">
-      <HintPath>packages\itextsharp.xmlworker.5.5.6\lib\itextsharp.xmlworker.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Newtonsoft.Json">
+    <Reference Include="Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>packages\Newtonsoft.Json.7.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="OpenXmlPowerTools">
-      <HintPath>packages\OpenXmlPowerTools.3.1.09\lib\OpenXmlPowerTools.dll</HintPath>
-      <Private>True</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -75,24 +51,6 @@
     <Compile Include="Configuration\Json\JsonConfig.cs" />
     <Compile Include="Configuration\Json\JsonFileManager.cs" />
     <Compile Include="Configuration\Tools\FileConfigManager.cs" />
-    <Compile Include="Documents\Interface\Managers\IPdfManager.cs" />
-    <Compile Include="Documents\Interface\Managers\IWordManager.cs" />
-    <Compile Include="Documents\Interface\Managers\IXmlManager.cs" />
-    <Compile Include="Documents\Interface\Parsers\IXmlParser.cs" />
-    <Compile Include="Documents\Interface\Processors\IPdfProcessor.cs" />
-    <Compile Include="Documents\Interface\Processors\IWordProcessor.cs" />
-    <Compile Include="Documents\Interface\Processors\IXmlProcessor.cs" />
-    <Compile Include="Documents\Manager\PdfManager.cs" />
-    <Compile Include="Documents\Manager\WordManager.cs" />
-    <Compile Include="Documents\Manager\XmlManager.cs" />
-    <Compile Include="Documents\Parsers\XmlParsers\HtmlAgilityPack\HtmlAgilityPackParser.cs" />
-    <Compile Include="Documents\Processors\PdfProcessors\iTextSharper\CssResolver.cs" />
-    <Compile Include="Documents\Processors\PdfProcessors\iTextSharper\ImageProvider.cs" />
-    <Compile Include="Documents\Processors\PdfProcessors\iTextSharper\iTextSharperPdfProcessor.cs" />
-    <Compile Include="Documents\Processors\PdfProcessors\iTextSharper\LinkProvider.cs" />
-    <Compile Include="Documents\Processors\WordProcessors\DocX\DocXWordProcessor.cs" />
-    <Compile Include="Documents\Processors\XmlProcessors\OpenXMLPowerTools\OpenXMLPowerToolsXmlProcessor.cs" />
-    <Compile Include="Documents\Tools\DefaultDocTools.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
