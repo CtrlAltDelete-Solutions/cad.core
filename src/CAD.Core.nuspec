@@ -10,7 +10,7 @@
     <projectUrl>https://github.com/CtrlAltDelete-Solutions/cad.core</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
-    <releaseNotes>Moved documents library to a separate project CAD.Documents</releaseNotes>
+    <releaseNotes>removed unused references</releaseNotes>
     <copyright>Copyright 2015</copyright>
   </metadata>
 </package>
